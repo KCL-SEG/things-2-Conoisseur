@@ -12,4 +12,3 @@ class ThingForm(forms.ModelForm):
             'description':forms.Textarea(),
             'quantity': forms.NumberInput()
                  }
-    submit_button = forms.CharField()
